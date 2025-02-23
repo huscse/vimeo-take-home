@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased text-gray-900;
+  }
+}
+
+.image-hover {
+  @apply transition-transform duration-300 ease-in-out;
+}
+
+.image-hover:hover {
+  @apply scale-105;
+}
